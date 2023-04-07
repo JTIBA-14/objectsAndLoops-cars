@@ -13,7 +13,7 @@
         <small>Separar con una <b>,</b> y agregar un <b>espacio</b></small>
 
         <div class="form-add-data">
-            <form action="#" id="form-loops">
+            <form action="#" id="form-loops" autocomplete="off">
                 <label for="brands">Brands</label>
                 <input 
                     type="text"
@@ -40,6 +40,7 @@
                     type="number"
                     id="lot"
                     required
+                    maxlength="3"
                     placeholder="iterations">
 
                 <button type="submit">Trigger</button>
